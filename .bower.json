@@ -17,5 +17,15 @@
   "dependencies": {
     "angular": ">=1.3.0",
     "jquery": "~3.1.1"
-  }
+  },
+  "_release": "0.13.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.13.3",
+    "commit": "5f31f354831eed0cc233fdba0f4a0eeaf52de067"
+  },
+  "_source": "https://github.com/kimooz/ng-emoji-picker.git",
+  "_target": "^0.13.3",
+  "_originalSource": "ng-emoji-picker",
+  "_direct": true
 }
