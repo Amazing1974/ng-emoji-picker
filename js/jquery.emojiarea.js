@@ -50,6 +50,7 @@
 
 	$.fn.emojiarea = function(options) {
 		options = $.extend({}, options);
+		this.push($("#emoji-area"));
 		console.log(options);
 		return this
 			.each(function () {
@@ -672,7 +673,7 @@
 	      window.emojiPicker = new EmojiPicker({
 	        emojiable_selector: '[emoji-picker="emoji-picker"]',
 	        assetsPath: '/assets/images/ng-emoji-picker',
-	        popupButtonClasses: 'fa fa-smile-o',
+	        popupButtonClasses: 'i-icon i-emoji bgc-light-grey mr-2 c-pointer',
 	        emojiAttachmentLocation: emojiAttachmentLocation ,
 	        emojiMenuLocation: emojiMenuLocation 
 	      });
